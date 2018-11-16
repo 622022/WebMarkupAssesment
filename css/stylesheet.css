@@ -1,0 +1,318 @@
+/*Taking external font from url*/
+	@font-face
+  	{
+		font-family: "googleFont";
+		src: url(RobotoSlab-Regular.ttf);
+	  } 
+/*For background of every webpage*/	  
+	body
+	{ 
+		background-image: url("../img/background.jpeg");
+		background-repeat: no-repeat;
+	}
+		
+
+	/*styles h1 for every webpage*/
+	h1{
+		background-image: url("../img/companylogoBG.jpg");
+		max-width: 600px;
+		margin: auto;
+		max-height: 200px;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		text-align: center;
+		line-height: 200px;
+        text-align: center;
+		font-family: "googlefont",Arial,"Times New Roman", Times, serif;
+		color: #FFFFFF;
+		font-size: 3em;
+	}
+	
+	/*styling navigation bar for every webpage*/
+	.topnav 
+	{
+   	 	background-color: #707070;
+    	overflow: hidden;
+		max-width: 600px;
+    	margin: auto;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+    	text-align: center;
+		font-family: Arial,"Times New Roman", Times, serif;
+	}
+
+	/*navigation bar styling for text*/
+	.topnav a {
+		float: centre;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 1.063em;
+		}
+	
+	/*nav bar styling for text*/
+	.navtext
+	{
+		text-transform: uppercase;
+		float: centre;
+  	 	color: #f2f2f2;
+   	 	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+		font-size: 1.063em;
+		font-family: Arial,"Times New Roman", Times, serif;
+	}
+	
+	
+	/*adjusting pic*/
+	#one
+	{
+		max-height: 45%;
+		width: 600px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+	}
+	
+	/*styling area above every pic in Productspage*/
+	.Above
+	{
+		max-width: 600px;
+		margin: auto;
+		height: 150px;
+		background-color: #2699FB;
+		color: #FFFFFF;
+		font-size: 2.941em;
+		text-align: center;
+		line-height: 60px;
+        text-align: center;
+		text-transform: uppercase;
+	}
+
+	/*styling text in areas above every pic in Productpage*/
+	.abovetext
+	{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-family: Arial,"Times New Roman", Times, serif;
+
+	}
+	
+
+	/*pic styling*/
+	#two
+	{
+		width: 600px;
+		height: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		 
+	}
+
+	/*pic styling*/
+	#three
+	{
+		width: 600px;
+		height: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		 
+	}	
+	
+	/*pic styling*/
+	#four
+	{
+		width: 600px;
+		height: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+	
+	/*footer style for every page*/
+	footer
+	{
+		background-color: #000000;
+		color: #FFFFFF;
+		text-align: center;
+		width: 600px;
+		margin: auto;
+		font-family: Arial,"Times New Roman", Times, serif;
+	}	
+
+	/*box styling for product catalog text*/
+	.box
+	{
+		background-color: #2699FB;
+		margin: auto;
+		width: 600px;
+		height: 100px;
+		text-align: center;
+		line-height: 100px;
+		color: #FFFFFF;
+		font-size: 3em;
+		font-family: Arial,"Times New Roman", Times, serif;
+		text-transform: uppercase;
+
+	}
+
+	/*Flexbox containing every pic for Product page*/
+	.piccontainer
+	{
+		display: flex;
+		flex-wrap: wrap;
+		background-color: #FFFFFF;
+		justify-content: space-between;
+		justify-content: space-around;
+		border: 1px solid #AAAAAA;
+		width: 600px;
+		margin: auto;
+	}
+	
+	/*pic styling for every pic in flex box*/
+	.productpic
+	{
+		
+		width: 150px;
+		height: 150px;
+		padding: 5px;
+	}
+
+	/*Adjusting More information text in contact page*/
+	.contactpageheading
+	{
+		margin-left: 10px;
+		color: #707070;
+		font-family: Arial,"Times New Roman", Times, serif;
+	}
+
+	/*fieldset adjustment in contacts page*/
+	.contactFormFieldset
+	{
+		background-color: #FFFFFF;
+		margin: auto;
+		width: 500px;
+		padding-top: 5px;
+	}
+	
+	/*information heading styling*/
+	.informationheading
+	{
+		background-color: #f5f5f5;
+		margin: auto;
+		width: 600px;
+		height: 440px;
+		padding-top: 1px; 
+		font-family: Arial,"Times New Roman", Times, serif;
+	}
+
+	/*Box styling for the first box on contacts page */
+	.firstbox
+	{
+		background-color: #FFFFFF;
+    	width: 530px;
+    	margin: auto;
+    	border-bottom-width: 0px;
+	
+	}
+
+	/*adjustment for the first box*/
+	.adjustment
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+		font-size: 15px;
+		line-height: 1.5;
+	}
+	
+	/*adjusting the general box*/
+	.generalbox
+	{
+		float: right;
+		width: 300px;
+		height: 20px;
+	}
+
+	/*second box styling on contactpage*/
+	.secondbox
+	{
+		padding: 10px;
+		border: none;
+	}
+
+	
+
+	/*box adjustments in one class*/
+	.boxadjustment
+	{
+		margin-right: 34px;
+    	margin-left: 34px;
+    	padding-left: 0px;
+    	padding-top: 0px;
+    	padding-bottom: 0px;
+    	padding-right: 0px;
+	}
+
+	/*text area adjustment in fourth box*/
+	.textarea
+	{
+		padding-top: 0px;
+   		padding-left: 0px;
+    	border: none;
+    	padding-bottom: 0px;
+    	width: 532px;
+		height: 113px;
+		font-size: 15px;
+	}
+
+	/*fourth box adjustment*/
+	.fourthbox
+	{
+		margin-top: 15px;
+	}
+
+	/*submit button styling*/
+	.button
+	{
+		width: 543px;
+		margin-left: 30px;
+		font-size: 1.471em; 
+		text-align: center;
+		margin-top: 15px;
+		background-color: #2699FB;
+		color: #FFFFFF;
+		border-top-width: 1px;
+		padding-left: 0px;
+		border-left-width: 1px;
+		font-family: Arial,"Times New Roman", Times, serif;
+	}
+
+	/*input box containing text area adjustment*/
+	.inputbox
+	{
+		border: none;
+    	font-size: 0.938em;
+	}
+
+	/*footer for contact page*/
+	.contactpagefooter
+	{
+		width: 600px;
+ 	  	margin-left: 368px;
+ 	    height: 25px;
+    	line-height: 1.5;
+	}
+
+	@media only screen and (max-width: 360px)
+	{
+		display: none;
+	}
+	
+	
+		
+
